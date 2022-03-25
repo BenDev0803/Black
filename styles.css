@@ -1,0 +1,123 @@
+body{
+    background-color: black !important;
+    font-family: 'Jura', sans-serif !important;
+}
+
+.navbar-custom {
+    background-color: black;
+    border-bottom: white 2px solid;
+}
+
+.custom-header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5) , rgba(0,0, 0, 0.9)) , url('./media/moon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px !important;
+    font-family: 'Orbitron', sans-serif !important; 
+
+}
+
+.numbers {
+    font-family: 'Orbitron', sans-serif !important; 
+
+}
+
+.numeri {
+    font-size: 50px;
+}
+
+.luna {
+    font-family: 'Jura', sans-serif !important; 
+
+}
+
+.sezione-custom {
+    background-color: black !important;
+}
+.freccia {
+    position: absolute;
+    bottom: 0vh;
+}
+
+.vh-150 {
+    height: 120vh !important;
+}
+.testo {
+    border-bottom: #0A58CA   2px solid;
+}
+
+h3 {
+    color: #0A58CA   ;
+}
+
+.icona {
+    color: #0A58CA ;
+}
+
+.indice {
+    border-bottom: #0A58CA 2px solid;
+    padding: 10px;
+}
+.testoh {
+    text-align: right;
+}
+
+
+.goto {
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 20px;
+    align-items: center !important;
+}
+
+#content {
+    position:relative;
+    width:180px;
+    height:60px;
+}
+#content:before, #content:after, #content>:first-child:before, #content>:first-child:after {
+    position:absolute;
+    width:10px; height: 10px;
+    border-color:#0A58CA; 
+    border-style:solid; 
+    content: ' ';
+}
+
+#content:before {
+    top:0;
+    left:0;
+    border-width: 3px 0 0 3px;
+}
+
+#content:after {
+    top:0;right:0;border-width: 3px 3px 0 0
+}
+
+#content>:first-child:before {
+    bottom:0;right:0;border-width: 0 3px 3px 0
+}
+
+#content>:first-child:after {
+    bottom:0;left:0;border-width: 0 0 3px 3px
+}
+
+
+.tramonto {
+    background-image: url("./media/sunrise-1765027_1920.jpg");
+    background-size: cover;
+}
+
+
+.footer-custom {
+    border-bottom: bottom 3px solid #0A58CA;
+    border-image: linear-gradient(to left, rgba(0, 0, 0, 1) 1%, rgba(0, 255, 255, 1) 50%, rgba(0, 0, 0, 1) 100%) 
+                0 0 100% 0/5px 300px 5px 300px stretch;
+  
+}
+  
+  
